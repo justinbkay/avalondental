@@ -6191,3 +6191,14 @@ a.badge:focus {
   color: #e2a91e;
 }
 
+.link_list {
+  padding-left: 10px;
+}
+
+.link_list > li {
+  line-height: 30px;
+}
+
+.bold {
+  font-weight: bolder;
+}
