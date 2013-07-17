@@ -228,6 +228,11 @@ body {
   line-height: 20px;
   color: #DEDEDE;
   background-color: #37578c;
+  background-image: -moz-linear-gradient(top, #294168, #37578c 300px);
+  background-image: -webkit-linear-gradient(top, #294168, #37578c 300px);
+  background-image: -o-linear-gradient(top, #294168, #37578c 300px);
+  background-image: -ms-linear-gradient(top, #294168, #37578c 300px);
+  background-image: linear-gradient(top, #294168, #37578c 300px);
 }
 
 a {
