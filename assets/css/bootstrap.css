@@ -223,6 +223,9 @@ textarea {
 
 body {
   margin: 0;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
