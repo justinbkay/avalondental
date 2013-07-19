@@ -6196,7 +6196,7 @@ a.badge:focus {
   margin-top: 20px;
 }
 
-.gold {
+.gold, .pop {
   color: #e2a91e;
 }
 
@@ -6208,6 +6208,7 @@ a.badge:focus {
   line-height: 30px;
 }
 
-.bold {
+.bold, .pop {
   font-weight: bolder;
 }
+
