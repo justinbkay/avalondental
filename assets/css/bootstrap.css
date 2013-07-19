@@ -6212,3 +6212,6 @@ a.badge:focus {
   font-weight: bolder;
 }
 
+img {
+  border: 2px solid #fff;
+}
