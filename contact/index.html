@@ -4,17 +4,17 @@ title: Contact Information
 contact: active
 ---
 <div class="row" style="margin-bottom: 60px;margin-top: 40px;">
-  <div class="span3 offset1">
+  <div itemscope itemtype="http://schema.org/Organization" class="span3 offset1">
     <p>
-    <span class="lead">Avalon Dentistry<br /> Family & Cosmetic</span><br />
+    <span itemprop="name" class="lead">Avalon Dentistry<br /> Family & Cosmetic</span><br />
     </p>
-    <address class="muted">
-      672 E Wythe Creek Court<br />
-      Suite 101<br />
-      Kuna ID 83634<br />
+    <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="muted">
+      <span itemprop="streetAddress">672 E Wythe Creek Court</span><br />
+      <span itemprop="streetAddress">Suite 101</span><br />
+      <span itemprop="addressLocality">Kuna</span> <span itemprop="addressRegion">ID</span> <span itemprop="postalCode">83634</span><br />
     </address>
     <p style="margin-top: 30px; margin-bottom: 30px;">
-      Call us today at: <a href="tel:+12086292800">{{ site.phone }}</a>
+      Call us today at: <a itemprop="telephone" href="tel:+12086292800">{{ site.phone }}</a>
     </p>
     <p>
       <i class="icon-map-marker"></i> &nbsp;
